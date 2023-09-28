@@ -37,7 +37,7 @@ client.on('interactionCreate', async (interaction) =>{
         await interaction.deleteReply();
 
         //SENDS TO CONFESSION CHANNEL
-        const ConfessChannel = interaction.guild.channels.cache.get('877478372387729489');
+        const ConfessChannel = interaction.guild.channels.cache.get('YOUR CHANNEL ID');
         const conf = interaction.options.get('confess-now').value;
         let reportEmbed = new EmbedBuilder()
                         .setColor("Random")
@@ -54,7 +54,7 @@ client.on('interactionCreate', async (interaction) =>{
         await interaction.deleteReply();
 
         //SENDS TO CONFESSION CHANNEL
-        const ConfessChannel2 = interaction.guild.channels.cache.get('877478372387729489');
+        const ConfessChannel2 = interaction.guild.channels.cache.get('YOUR CHANNEL ID');
         const conf2 = interaction.options.get('confess-now-text').value;
         const confPic2 = interaction.options.getAttachment('confess-now-with-picture').url;
         let reportEmbed2 = new EmbedBuilder()
